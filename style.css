@@ -972,3 +972,64 @@ transform:scale(1);
 }
 
 }
+
+/* ==========================================
+   LOVE LETTER
+========================================== */
+
+#letterSection{
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+height:100vh;
+
+background:linear-gradient(180deg,#fff8fc,#ffe8f2);
+
+}
+
+.letter-paper{
+
+width:92%;
+max-width:750px;
+
+padding:55px;
+
+background:white;
+
+border-radius:18px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.12);
+
+font-family:'Cormorant Garamond',serif;
+
+line-height:2;
+
+font-size:28px;
+
+color:#555;
+
+}
+
+.letter-title{
+
+font-family:'Parisienne';
+
+font-size:60px;
+
+text-align:center;
+
+margin-bottom:40px;
+
+color:#ff4f81;
+
+}
+
+#letterContent{
+
+white-space:pre-line;
+
+min-height:350px;
+
+}
