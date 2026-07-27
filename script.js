@@ -678,3 +678,111 @@ function showReasons(){
     },1200);
 
 }
+
+/* ==========================================
+   REASONS DATA
+========================================== */
+
+const reasons = [
+
+{emoji:"❤️",text:"Your smile makes ordinary days feel extraordinary."},
+
+{emoji:"🌸",text:"You make people feel comfortable just by being yourself."},
+
+{emoji:"✨",text:"Your happiness genuinely matters to me."},
+
+{emoji:"🥹",text:"Every conversation with you becomes a beautiful memory."},
+
+{emoji:"💖",text:"Your kindness is something I'll always admire."},
+
+{emoji:"😊",text:"You make even simple moments feel special."},
+
+{emoji:"🌙",text:"Your calmness brings peace to my heart."},
+
+{emoji:"☀️",text:"You brighten every room without even trying."},
+
+{emoji:"💌",text:"You inspire me to become a better person."},
+
+{emoji:"🌹",text:"Your heart is more beautiful than words can describe."},
+
+{emoji:"🎀",text:"Your little habits always make me smile."},
+
+{emoji:"🦋",text:"Life feels lighter whenever you're around."},
+
+{emoji:"💞",text:"You make happiness look effortless."},
+
+{emoji:"🌼",text:"Your laugh is one of my favorite sounds."},
+
+{emoji:"⭐",text:"You're one of the brightest parts of my life."},
+
+{emoji:"🤍",text:"You deserve every beautiful thing this world can offer."},
+
+{emoji:"🌍",text:"Being with you makes the world feel smaller and warmer."},
+
+{emoji:"🥰",text:"You make love feel simple and genuine."},
+
+{emoji:"💝",text:"Thank you for simply being YOU."},
+
+{emoji:"❤️",text:"And the biggest reason...\n\nBecause you're YOU.\n\nThat's more than enough."}
+
+];
+
+let currentReason = 0;
+
+function showReasons(){
+
+    letterSection.style.opacity="0";
+
+    setTimeout(()=>{
+
+        letterSection.classList.add("hidden");
+
+        letterSection.style.opacity="1";
+
+        reasonsSection.classList.remove("hidden");
+
+        playReasons();
+
+    },1200);
+
+}
+
+function playReasons(){
+
+    if(currentReason>=reasons.length){
+
+        reasonsFinished();
+
+        return;
+
+    }
+
+    const r=reasons[currentReason];
+
+    reasonEmoji.innerHTML=r.emoji;
+
+    reasonNumber.innerHTML="Reason #"+(currentReason+1);
+
+    reasonText.innerHTML=r.text;
+
+    currentReason++;
+
+    setTimeout(playReasons,4000);
+
+}
+
+function reasonsFinished(){
+
+    reasonsSection.style.opacity="0";
+
+    setTimeout(()=>{
+
+        reasonsSection.classList.add("hidden");
+
+        // Fireworks Section
+
+        alert("🎆 Fireworks Coming Next");
+
+    },1200);
+
+}
