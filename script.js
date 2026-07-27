@@ -501,3 +501,75 @@ function questionsFinished(){
     },2000);
 
 }
+
+/* ==========================================
+   LOVE LETTER
+========================================== */
+
+const letterSection =
+document.getElementById("letterSection");
+
+const letterContent =
+document.getElementById("letterContent");
+
+const letter = `
+
+My Dearest Sweeetuuhh ❤️,
+
+Happy Birthday.
+
+Today is all about celebrating you.
+
+Your smile...
+
+Your kindness...
+
+Your heart...
+
+Everything about you makes life a little brighter.
+
+Thank you for being exactly who you are.
+
+I hope this tiny surprise made you smile...
+
+even if it was just for a little while.
+
+May this birthday bring you endless happiness,
+
+beautiful memories,
+
+and countless reasons to smile.
+
+Once again...
+
+Happy Birthday.
+
+❤️
+
+Forever Yours,
+
+Akash ❤️
+
+`;
+
+function typeLetter(){
+
+let i=0;
+
+letterContent.innerHTML="";
+
+const typing=setInterval(()=>{
+
+letterContent.innerHTML+=letter.charAt(i);
+
+i++;
+
+if(i>=letter.length){
+
+clearInterval(typing);
+
+}
+
+},35);
+
+}
