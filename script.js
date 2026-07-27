@@ -536,6 +536,18 @@ document.getElementById("letterSection");
 const letterContent =
 document.getElementById("letterContent");
 
+const reasonsSection =
+document.getElementById("reasonsSection");
+
+const reasonEmoji =
+document.getElementById("reasonEmoji");
+
+const reasonNumber =
+document.getElementById("reasonNumber");
+
+const reasonText =
+document.getElementById("reasonText");
+
 const letter = `
 
 My Dearest Sweeetuuhh ❤️,
