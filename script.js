@@ -351,3 +351,69 @@ answerContainer.appendChild(btn);
 });
 
 }
+
+/* ==========================================
+   SHOW RESPONSE
+========================================== */
+
+function showResponse(answerIndex){
+
+    const q = questions[currentQuestion];
+
+    const response = q.responses[answerIndex];
+
+    questionContent.classList.add("hidden");
+
+    responseCard.classList.remove("hidden");
+
+    responseTitle.innerHTML = response.title;
+
+    responseText.innerHTML = response.text;
+
+    setTimeout(()=>{
+
+        currentQuestion++;
+
+        if(currentQuestion < questions.length){
+
+            showQuestion();
+
+        }
+
+        else{
+
+            questionsFinished();
+
+        }
+
+    },2200);
+
+}
+
+/* ==========================================
+   FINISHED
+========================================== */
+
+function questionsFinished(){
+
+    responseTitle.innerHTML="🥹";
+
+    responseText.innerHTML="You've reached the end of our little game... ❤️";
+
+    setTimeout(()=>{
+
+        questionsSection.style.opacity="0";
+
+        setTimeout(()=>{
+
+            questionsSection.classList.add("hidden");
+
+            // Love Letter Section will come here
+
+            alert("💌 Love Letter Coming Next");
+
+        },1000);
+
+    },2000);
+
+}
