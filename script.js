@@ -125,7 +125,7 @@ openLetterBtn.addEventListener("click",()=>{
 
         // Password Section comes here
 
-        alert("🔒 Password Screen - Section 3");
+        passwordSection.classList.remove("hidden");
 
     },3000);
 
