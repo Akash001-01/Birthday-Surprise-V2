@@ -289,3 +289,65 @@ text:"Honestly... I wanted to choose all of them."
 }
 
 ];
+
+function updateHearts(){
+
+let hearts="";
+
+for(let i=0;i<questions.length;i++){
+
+if(i<=currentQuestion-1){
+
+hearts+="❤️ ";
+
+}
+
+else{
+
+hearts+="🤍 ";
+
+}
+
+}
+
+heartProgress.innerHTML=hearts;
+
+}
+
+function startQuestions(){
+
+showQuestion();
+
+}
+
+function showQuestion(){
+
+const q=questions[currentQuestion];
+
+updateHearts();
+
+responseCard.classList.add("hidden");
+
+questionContent.classList.remove("hidden");
+
+questionTitle.innerHTML=q.title;
+
+questionSubtitle.innerHTML=q.subtitle;
+
+answerContainer.innerHTML="";
+
+q.answers.forEach((answer,index)=>{
+
+const btn=document.createElement("button");
+
+btn.className="answer-btn";
+
+btn.innerHTML=answer;
+
+btn.onclick=()=>showResponse(index);
+
+answerContainer.appendChild(btn);
+
+});
+
+}
