@@ -233,3 +233,66 @@ font-size:18px;
 }
 
 }
+.fade-text{
+
+animation:glowText 2s ease-in-out infinite alternate;
+
+}
+
+.intro-message{
+
+font-size:34px;
+
+line-height:1.8;
+
+font-family:'Cormorant Garamond',serif;
+
+}
+
+.headphone{
+
+font-size:90px;
+
+margin-bottom:25px;
+
+animation:floatIcon 3s ease-in-out infinite;
+
+}
+
+@keyframes glowText{
+
+from{
+
+text-shadow:0 0 10px rgba(255,255,255,.2);
+
+}
+
+to{
+
+text-shadow:0 0 35px rgba(255,255,255,.8);
+
+}
+
+}
+
+@keyframes floatIcon{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
