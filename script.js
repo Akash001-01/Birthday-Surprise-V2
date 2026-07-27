@@ -143,6 +143,10 @@ const passwordInput = document.getElementById("passwordInput");
 
 const passwordMessage = document.getElementById("passwordMessage");
 
+const birthdaySection = document.getElementById("birthdaySection");
+
+const continueJourney = document.getElementById("continueJourney");
+
 unlockBtn.addEventListener("click",()=>{
 
     if(passwordInput.value==="0516"){
