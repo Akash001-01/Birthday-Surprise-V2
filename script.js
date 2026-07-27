@@ -192,7 +192,7 @@ continueJourney.addEventListener("click",()=>{
 
         questionsSection.classList.remove("hidden");
 
-        alert("Questions Coming Soon ❤️");
+       startQuestions();
 
     },1000);
 
