@@ -634,3 +634,22 @@ petal.remove();
 },11000);
 
 }
+
+/* ==========================================
+   REASONS TRANSITION
+========================================== */
+
+function showReasons(){
+
+    letterSection.style.opacity="0";
+
+    setTimeout(()=>{
+
+        letterSection.classList.add("hidden");
+
+        // Section 7
+        alert("❤️ Reasons Section");
+
+    },1200);
+
+}
