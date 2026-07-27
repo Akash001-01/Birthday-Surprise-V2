@@ -174,7 +174,7 @@ unlockBtn.addEventListener("click",()=>{
 
             // Birthday Section
 
-            alert("🎂 Birthday Section");
+            birthdaySection.classList.remove("hidden");
 
         },3000);
 
