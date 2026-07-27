@@ -189,3 +189,21 @@ unlockBtn.addEventListener("click",()=>{
     }
 
 });
+
+const questionsSection = document.getElementById("questionsSection");
+
+continueJourney.addEventListener("click",()=>{
+
+    birthdaySection.style.opacity="0";
+
+    setTimeout(()=>{
+
+        birthdaySection.classList.add("hidden");
+
+        questionsSection.classList.remove("hidden");
+
+        startQuestions();
+
+    },1000);
+
+});
