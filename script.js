@@ -50,7 +50,6 @@ showStep(4);
 
 },17500);
 
-document.getElementById("beginBtn").addEventListener(()=>{});
 
 /* ==========================================
    SECTION 2 - ENVELOPE
