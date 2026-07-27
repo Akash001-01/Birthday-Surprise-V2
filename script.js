@@ -208,6 +208,8 @@ continueJourney.addEventListener("click",()=>{
 
         questionsSection.classList.remove("hidden");
 
+       currentQuestion = 0;
+
        startQuestions();
 
     },1000);
