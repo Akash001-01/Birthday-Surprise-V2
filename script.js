@@ -672,10 +672,37 @@ function showReasons(){
 
         letterSection.classList.add("hidden");
 
-        // Section 7
-        alert("❤️ Reasons Section");
+        letterSection.style.opacity="1";
+
+        reasonsSection.classList.remove("hidden");
+
+        playReasons();
 
     },1200);
+
+}
+
+function playReasons(){
+
+    if(currentReason>=reasons.length){
+
+        reasonsFinished();
+
+        return;
+
+    }
+
+    const r=reasons[currentReason];
+
+    reasonEmoji.innerHTML=r.emoji;
+
+    reasonNumber.innerHTML="Reason #"+(currentReason+1);
+
+    reasonText.innerHTML=r.text;
+
+    currentReason++;
+
+    setTimeout(playReasons,4000);
 
 }
 
