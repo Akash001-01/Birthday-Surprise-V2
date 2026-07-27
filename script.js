@@ -536,9 +536,6 @@ document.getElementById("letterSection");
 const letterContent =
 document.getElementById("letterContent");
 
-const letterContent =
-document.getElementById("letterContent");
-
 const letter = `
 
 My Dearest Sweeetuuhh ❤️,
@@ -663,34 +660,6 @@ petal.remove();
 /* ==========================================
    REASONS TRANSITION
 ========================================== */
-
-function showReasons(){
-
-    letterSection.style.opacity="0";
-
-    setTimeout(()=>{
-
-        letterSection.classList.add("hidden");
-
-        letterSection.style.opacity="1";
-
-        reasonsSection.classList.remove("hidden");
-
-        playReasons();
-
-    },1200);
-
-}
-
-function playReasons(){
-
-    if(currentReason>=reasons.length){
-
-        reasonsFinished();
-
-        return;
-
-    }
 
     const r=reasons[currentReason];
 
