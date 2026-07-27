@@ -1012,6 +1012,48 @@ color:#555;
 
 }
 
+.letter-petal{
+
+position:fixed;
+
+font-size:22px;
+
+pointer-events:none;
+
+animation:petalFall linear forwards;
+
+opacity:.8;
+
+z-index:999;
+
+}
+
+@keyframes petalFall{
+
+0%{
+
+transform:translateY(-40px) rotate(0deg);
+
+opacity:0;
+
+}
+
+15%{
+
+opacity:1;
+
+}
+
+100%{
+
+transform:translateY(110vh) rotate(360deg);
+
+opacity:0;
+
+}
+
+}
+
 .letter-title{
 
 font-family:'Parisienne';
