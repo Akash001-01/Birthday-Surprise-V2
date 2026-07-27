@@ -510,6 +510,8 @@ function questionsFinished(){
 
             questionsSection.classList.add("hidden");
 
+            questionsSection.style.opacity = "1";
+
             // Love Letter Section will come here
 
            letterSection.style.opacity = "1";
