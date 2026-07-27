@@ -599,3 +599,28 @@ transform:scale(.8);
 }
 
 }
+
+#intro,
+#envelopeSection{
+
+transition:opacity 1.2s ease;
+
+}
+
+.envelope-letter{
+
+z-index:2;
+
+}
+
+.envelope-flap{
+
+z-index:5;
+
+}
+
+.wax-seal{
+
+z-index:10;
+
+}
