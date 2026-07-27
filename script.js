@@ -536,6 +536,9 @@ document.getElementById("letterSection");
 const letterContent =
 document.getElementById("letterContent");
 
+const letterContent =
+document.getElementById("letterContent");
+
 const letter = `
 
 My Dearest Sweeetuuhh ❤️,
