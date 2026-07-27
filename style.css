@@ -1032,4 +1032,44 @@ white-space:pre-line;
 
 min-height:350px;
 
+font-size:28px;
+
+line-height:2.1;
+
+color:#555;
+
+position:relative;
+
+}
+
+#letterContent::after{
+
+content:"|";
+
+display:inline-block;
+
+margin-left:4px;
+
+animation:blinkCursor .8s infinite;
+
+color:#ff4f81;
+
+font-weight:bold;
+
+}
+
+@keyframes blinkCursor{
+
+0%,50%{
+
+opacity:1;
+
+}
+
+51%,100%{
+
+opacity:0;
+
+}
+
 }
