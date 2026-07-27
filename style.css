@@ -296,3 +296,306 @@ transform:translateY(0);
 }
 
 }
+/* ================================================= */
+/* SECTION 2 - LUXURY ENVELOPE */
+/* ================================================= */
+
+#envelopeSection{
+
+    width:100%;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(180deg,#FFF8FC,#FFE9F3,#FFF8FC);
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+/* =============================== */
+
+.envelope-wrapper{
+
+    text-align:center;
+
+    z-index:2;
+
+}
+
+/* =============================== */
+
+.envelope-caption{
+
+    font-family:'Cormorant Garamond',serif;
+
+    font-size:30px;
+
+    color:#ff5a92;
+
+    margin-bottom:35px;
+
+}
+
+/* =============================== */
+
+.envelope{
+
+    position:relative;
+
+    width:340px;
+
+    height:230px;
+
+    margin:auto;
+
+    animation:floatEnvelope 4s ease-in-out infinite;
+
+}
+
+/* =============================== */
+
+.envelope-back{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+    background:#ffd7e7;
+
+    border-radius:12px;
+
+    box-shadow:0 25px 60px rgba(255,105,180,.25);
+
+}
+
+/* =============================== */
+
+.envelope-flap{
+
+    position:absolute;
+
+    width:100%;
+
+    height:120px;
+
+    background:#ffc3db;
+
+    clip-path:polygon(0 0,100% 0,50% 100%);
+
+    transform-origin:top;
+
+    transition:1s;
+
+    z-index:5;
+
+}
+
+/* =============================== */
+
+.envelope-letter{
+
+    position:absolute;
+
+    width:88%;
+
+    height:170px;
+
+    left:6%;
+
+    top:20px;
+
+    background:white;
+
+    border-radius:10px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    transition:1s;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.envelope-letter h2{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+
+.envelope-letter p{
+
+    font-size:22px;
+
+    color:#ff4f81;
+
+}
+
+/* =============================== */
+
+.wax-seal{
+
+    position:absolute;
+
+    left:50%;
+
+    top:78px;
+
+    transform:translateX(-50%);
+
+    width:58px;
+
+    height:58px;
+
+    border-radius:50%;
+
+    background:#ff4f81;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:22px;
+
+    z-index:10;
+
+    box-shadow:0 8px 20px rgba(255,79,129,.45);
+
+    transition:.6s;
+
+}
+
+/* =============================== */
+
+#openLetterBtn{
+
+    margin-top:55px;
+
+}
+
+/* =============================== */
+
+.sparkles{
+
+    position:absolute;
+
+    inset:0;
+
+    pointer-events:none;
+
+}
+
+.sparkles span{
+
+    position:absolute;
+
+    font-size:26px;
+
+    animation:sparkle 6s linear infinite;
+
+}
+
+.sparkles span:nth-child(1){
+
+top:12%;
+left:20%;
+
+}
+
+.sparkles span:nth-child(2){
+
+top:22%;
+right:18%;
+
+}
+
+.sparkles span:nth-child(3){
+
+bottom:18%;
+left:24%;
+
+}
+
+.sparkles span:nth-child(4){
+
+bottom:25%;
+right:20%;
+
+}
+
+.sparkles span:nth-child(5){
+
+top:50%;
+left:8%;
+
+}
+
+/* =============================== */
+
+@keyframes floatEnvelope{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes sparkle{
+
+0%{
+
+opacity:.2;
+
+transform:scale(.8);
+
+}
+
+50%{
+
+opacity:1;
+
+transform:scale(1.3);
+
+}
+
+100%{
+
+opacity:.2;
+
+transform:scale(.8);
+
+}
+
+}
