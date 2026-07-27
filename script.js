@@ -197,3 +197,95 @@ continueJourney.addEventListener("click",()=>{
     },1000);
 
 });
+
+/* ==========================================
+   QUESTIONS ENGINE
+========================================== */
+
+let currentQuestion = 0;
+
+const questions = [
+
+{
+
+title:"Can we play a little game? 😊",
+
+subtitle:"I promise it'll only take a minute. ❤️",
+
+answers:[
+
+"Let's Play ❤️"
+
+],
+
+responses:[
+
+{
+
+title:"Yay!!",
+
+text:"I knew you'd say yes. ❤️"
+
+}
+
+]
+
+},
+
+{
+
+title:"If I could keep one thing forever...",
+
+subtitle:"Choose one... 🥹",
+
+answers:[
+
+"😊 Your Smile",
+
+"😂 Your Cute Anger",
+
+"❤️ Your Heart",
+
+"🌍 Everything About You"
+
+],
+
+responses:[
+
+{
+
+title:"Aww...",
+
+text:"Your smile makes every day brighter."
+
+},
+
+{
+
+title:"Hehe...",
+
+text:"Even your cute anger makes me smile."
+
+},
+
+{
+
+title:"Exactly...",
+
+text:"Your heart is the most beautiful thing about you."
+
+},
+
+{
+
+title:"That's My Girl ❤️",
+
+text:"Honestly... I wanted to choose all of them."
+
+}
+
+]
+
+}
+
+];
