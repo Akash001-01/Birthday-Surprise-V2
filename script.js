@@ -182,6 +182,22 @@ unlockBtn.addEventListener("click",()=>{
 
 const questionsSection = document.getElementById("questionsSection");
 
+const heartProgress = document.getElementById("heartProgress");
+
+const questionTitle = document.getElementById("questionTitle");
+
+const questionSubtitle = document.getElementById("questionSubtitle");
+
+const answerContainer = document.getElementById("answerContainer");
+
+const questionContent = document.getElementById("questionContent");
+
+const responseCard = document.getElementById("responseCard");
+
+const responseTitle = document.getElementById("responseTitle");
+
+const responseText = document.getElementById("responseText");
+
 continueJourney.addEventListener("click",()=>{
 
     birthdaySection.style.opacity="0";
