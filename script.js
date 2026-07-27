@@ -670,24 +670,6 @@ petal.remove();
 }
 
 /* ==========================================
-   REASONS TRANSITION
-========================================== */
-
-    const r=reasons[currentReason];
-
-    reasonEmoji.innerHTML=r.emoji;
-
-    reasonNumber.innerHTML="Reason #"+(currentReason+1);
-
-    reasonText.innerHTML=r.text;
-
-    currentReason++;
-
-    setTimeout(playReasons,4000);
-
-}
-
-/* ==========================================
    REASONS DATA
 ========================================== */
 
