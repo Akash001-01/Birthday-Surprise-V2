@@ -512,6 +512,8 @@ function questionsFinished(){
 
             // Love Letter Section will come here
 
+           letterSection.style.opacity = "1";
+
            letterSection.classList.remove("hidden");
 
          typeLetter();
