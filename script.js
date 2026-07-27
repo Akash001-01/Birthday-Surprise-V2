@@ -50,20 +50,7 @@ showStep(4);
 
 },17500);
 
-document.getElementById("beginBtn").addEventListener("click",()=>{
-
-document.body.style.transition="1.5s";
-
-document.body.style.opacity="0";
-
-setTimeout(()=>{
-
-// Next Section (Envelope)
-alert("💌 Envelope Coming in Section 2");
-
-},1500);
-
-});
+document.getElementById("beginBtn").addEventListener(()=>{});
 
 /* ==========================================
    SECTION 2 - ENVELOPE
