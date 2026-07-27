@@ -494,7 +494,9 @@ function questionsFinished(){
 
             // Love Letter Section will come here
 
-            alert("💌 Love Letter Coming Next");
+           letterSection.classList.remove("hidden");
+
+         typeLetter();
 
         },1000);
 
