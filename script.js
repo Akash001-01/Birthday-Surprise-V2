@@ -518,37 +518,67 @@ const letter = `
 
 My Dearest Sweeetuuhh ❤️,
 
-Happy Birthday.
+Happy Birthday, my favorite person.
 
-Today is all about celebrating you.
+I don't know if words will ever be enough,
+but today I wanted to create something
+that would stay with you for a long time.
 
-Your smile...
+So...
 
-Your kindness...
+instead of buying another gift,
 
-Your heart...
+I decided to build you a little journey.
 
-Everything about you makes life a little brighter.
+Every screen you saw...
 
-Thank you for being exactly who you are.
+every animation...
 
-I hope this tiny surprise made you smile...
+every tiny detail...
 
-even if it was just for a little while.
+was made while thinking about you.
 
-May this birthday bring you endless happiness,
+I wanted this surprise to make you smile,
 
-beautiful memories,
+even if only for a few minutes.
 
-and countless reasons to smile.
+Because seeing you happy
+has always been one of my favorite things.
 
-Once again...
+I hope today reminds you
+how loved,
+how appreciated,
+and how special you truly are.
 
-Happy Birthday.
+Never stop smiling.
 
-❤️
+Never stop being the amazing person you are.
 
-Forever Yours,
+And whenever life feels difficult,
+
+remember...
+
+there's someone who will always want
+to see that beautiful smile again.
+
+Thank you...
+
+for being part of so many beautiful memories.
+
+Thank you...
+
+for simply being YOU.
+
+Happy Birthday once again,
+my Sweeetuuhh.
+
+May this year bring you
+more laughter,
+more peace,
+more adventures,
+and countless beautiful moments.
+
+With all my heart,
 
 Akash ❤️
 
