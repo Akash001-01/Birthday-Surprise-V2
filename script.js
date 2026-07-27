@@ -64,3 +64,82 @@ alert("💌 Envelope Coming in Section 2");
 },1500);
 
 });
+
+/* ==========================================
+   SECTION 2 - ENVELOPE
+========================================== */
+
+const intro = document.getElementById("intro");
+const envelopeSection = document.getElementById("envelopeSection");
+
+const beginBtn = document.getElementById("beginBtn");
+const openLetterBtn = document.getElementById("openLetterBtn");
+
+const envelope = document.getElementById("envelope");
+const flap = document.querySelector(".envelope-flap");
+const letter = document.querySelector(".envelope-letter");
+const seal = document.querySelector(".wax-seal");
+
+/* ===========================
+   Intro → Envelope
+=========================== */
+
+beginBtn.addEventListener("click",()=>{
+
+    intro.style.opacity="0";
+
+    setTimeout(()=>{
+
+        intro.classList.add("hidden");
+
+        envelopeSection.classList.remove("hidden");
+
+    },1200);
+
+});
+
+/* ===========================
+   Open Letter
+=========================== */
+
+openLetterBtn.addEventListener("click",()=>{
+
+    openLetterBtn.disabled=true;
+
+    /* Wax Seal */
+
+    seal.style.transform="translateX(-50%) scale(0)";
+
+    setTimeout(()=>{
+
+        /* Open Flap */
+
+        flap.style.transform="rotateX(180deg)";
+
+    },400);
+
+    setTimeout(()=>{
+
+        /* Letter Slides */
+
+        letter.style.transform="translateY(-120px)";
+
+    },900);
+
+    setTimeout(()=>{
+
+        envelopeSection.style.opacity="0";
+
+    },2200);
+
+    setTimeout(()=>{
+
+        envelopeSection.classList.add("hidden");
+
+        // Password Section comes here
+
+        alert("🔒 Password Screen - Section 3");
+
+    },3000);
+
+});
