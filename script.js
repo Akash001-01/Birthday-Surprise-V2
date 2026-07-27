@@ -586,22 +586,51 @@ Akash ❤️
 
 function typeLetter(){
 
-let i=0;
+    let i = 0;
 
-letterContent.innerHTML="";
+    letterContent.innerHTML = "";
 
-const typing=setInterval(()=>{
+    // 🌸 Start floating petals
+    const petals = setInterval(createPetal, 700);
 
-letterContent.innerHTML+=letter.charAt(i);
+    const typing = setInterval(()=>{
 
-i++;
+        letterContent.innerHTML += letter.charAt(i);
 
-if(i>=letter.length){
+        i++;
 
-clearInterval(typing);
+        if(i >= letter.length){
+
+            clearInterval(typing);
+
+            clearInterval(petals);
+
+            setTimeout(showReasons, 3000);
+
+        }
+
+    },35);
 
 }
 
-},35);
+function createPetal(){
+
+const petal=document.createElement("div");
+
+petal.className="letter-petal";
+
+petal.innerHTML=Math.random()>.5?"🌸":"💖";
+
+petal.style.left=Math.random()*100+"vw";
+
+petal.style.animationDuration=(6+Math.random()*5)+"s";
+
+document.body.appendChild(petal);
+
+setTimeout(()=>{
+
+petal.remove();
+
+},11000);
 
 }
