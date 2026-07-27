@@ -143,3 +143,49 @@ openLetterBtn.addEventListener("click",()=>{
     },3000);
 
 });
+
+/* ==========================================
+   PASSWORD
+========================================== */
+
+const passwordSection = document.getElementById("passwordSection");
+
+const unlockBtn = document.getElementById("unlockBtn");
+
+const passwordInput = document.getElementById("passwordInput");
+
+const passwordMessage = document.getElementById("passwordMessage");
+
+unlockBtn.addEventListener("click",()=>{
+
+    if(passwordInput.value==="0516"){
+
+        passwordMessage.innerHTML="❤️<br><br>You remembered...";
+
+        setTimeout(()=>{
+
+            passwordSection.style.opacity="0";
+
+        },1800);
+
+        setTimeout(()=>{
+
+            passwordSection.classList.add("hidden");
+
+            // Birthday Section
+
+            alert("🎂 Birthday Section");
+
+        },3000);
+
+    }
+
+    else{
+
+        passwordMessage.innerHTML=
+
+        "💭 Think about the day our story began... ❤️";
+
+    }
+
+});
