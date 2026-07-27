@@ -207,85 +207,169 @@ let currentQuestion = 0;
 const questions = [
 
 {
-
 title:"Can we play a little game? 😊",
-
 subtitle:"I promise it'll only take a minute. ❤️",
-
-answers:[
-
-"Let's Play ❤️"
-
-],
-
+answers:["Let's Play ❤️"],
 responses:[
-
 {
-
 title:"Yay!!",
-
 text:"I knew you'd say yes. ❤️"
-
 }
-
 ]
-
 },
 
 {
-
 title:"If I could keep one thing forever...",
-
 subtitle:"Choose one... 🥹",
-
 answers:[
-
 "😊 Your Smile",
-
 "😂 Your Cute Anger",
-
 "❤️ Your Heart",
-
 "🌍 Everything About You"
-
 ],
-
 responses:[
-
-{
-
-title:"Aww...",
-
-text:"Your smile makes every day brighter."
-
-},
-
-{
-
-title:"Hehe...",
-
-text:"Even your cute anger makes me smile."
-
-},
-
-{
-
-title:"Exactly...",
-
-text:"Your heart is the most beautiful thing about you."
-
-},
-
-{
-
-title:"That's My Girl ❤️",
-
-text:"Honestly... I wanted to choose all of them."
-
-}
-
+{title:"Aww...",text:"Your smile makes every day brighter."},
+{title:"Hehe...",text:"Even your cute anger makes me smile."},
+{title:"Exactly...",text:"Your heart is the most beautiful thing about you."},
+{title:"❤️",text:"Honestly... I wanted to choose all of them."}
 ]
+},
 
+{
+title:"If today had only one rule...",
+subtitle:"What would you choose?",
+answers:[
+"🥳 Smile More",
+"🍰 Eat More Cake",
+"❤️ Stay Happy",
+"✨ All Of The Above"
+],
+responses:[
+{title:"😊",text:"Your smile is enough to brighten today."},
+{title:"🍰",text:"Birthday means cake is mandatory!"}, 
+{title:"❤️",text:"That's all I've wished for."},
+{title:"✨",text:"Perfect choice. I expected nothing less."}
+]
+},
+
+{
+title:"Which notification makes me smile instantly?",
+subtitle:"🤭",
+answers:[
+"📱 Your Message",
+"📦 Amazon Delivery",
+"💰 Salary Credit",
+"🎮 Game Invite"
+],
+responses:[
+{title:"❤️",text:"Every message from you makes my day better."},
+{title:"😂",text:"Nice try... but not quite."},
+{title:"💰",text:"Useful... but not as special as you."},
+{title:"🎮",text:"Games can wait. You can't."}
+]
+},
+
+{
+title:"Which smile melts my heart?",
+subtitle:"🥹",
+answers:[
+"😊 Morning Smile",
+"🥰 Shy Smile",
+"😂 Laughing Smile",
+"❤️ Every Single One"
+],
+responses:[
+{title:"🌞",text:"Morning suits you beautifully."},
+{title:"🥰",text:"That smile is dangerous... in the cutest way."},
+{title:"😂",text:"Your laugh is contagious."},
+{title:"❤️",text:"Hehe... that's what I secretly hoped you'd choose."}
+]
+},
+
+{
+title:"If I had one birthday wish...",
+subtitle:"🎂",
+answers:[
+"🎂 More Cake",
+"❤️ Your Happiness",
+"🏍️ New Bike",
+"💰 More Money"
+],
+responses:[
+{title:"😂",text:"Cake is always welcome."},
+{title:"❤️",text:"This is the only wish that truly matters."},
+{title:"🏍️",text:"Maybe someday... 😄"},
+{title:"💸",text:"Money comes and goes. Smiles stay."}
+]
+},
+
+{
+title:"Complete this...",
+subtitle:"You + Me = ?",
+answers:[
+"😂 Trouble",
+"❤️ Beautiful Memories",
+"🌍 Endless Adventures",
+"✨ Everything"
+],
+responses:[
+{title:"😂",text:"The fun kind of trouble."},
+{title:"❤️",text:"Exactly... memories we'll never forget."},
+{title:"🌍",text:"Adventure sounds perfect."},
+{title:"✨",text:"Couldn't have answered better."}
+]
+},
+
+{
+title:"One thing I never want you to lose...",
+subtitle:"❤️",
+answers:[
+"📱 Phone",
+"😊 Your Smile",
+"🎂 Cake",
+"💰 Money"
+],
+responses:[
+{title:"📱",text:"Phones can be replaced."},
+{title:"❤️",text:"Your smile is priceless."},
+{title:"🍰",text:"Cake disappears quickly 😂"},
+{title:"💰",text:"Money returns. Smiles matter more."}
+]
+},
+
+{
+title:"Today's mission...",
+subtitle:"✨",
+answers:[
+"😊 Smile",
+"😂 Laugh",
+"❤️ Stay Happy",
+"🌸 All Three"
+],
+responses:[
+{title:"😊",text:"Please keep smiling today."},
+{title:"😂",text:"I hope you laugh a lot today."},
+{title:"❤️",text:"That's my biggest wish."},
+{title:"🌸",text:"Perfect mission accepted!"}
+]
+},
+
+{
+title:"One last thing...",
+subtitle:"❤️",
+answers:[
+"💌 Show Me",
+"🥹 I'm Ready",
+"❤️ I've Been Waiting",
+"✨ Continue"
+],
+responses:[
+{title:"💌",text:"Then let me tell you something from my heart..."}
+,
+{title:"🥹",text:"Thank you for staying till the end."},
+{title:"❤️",text:"I've been waiting too."},
+{title:"✨",text:"Let's continue our little journey."}
+]
 }
 
 ];
