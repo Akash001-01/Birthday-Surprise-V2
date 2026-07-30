@@ -557,48 +557,30 @@ but today I wanted to create something
 that would stay with you for a long time.
 
 So...
-
 instead of buying another gift,
-
 I decided to build you a little journey.
-
 Every screen you saw...
-
 every animation...
-
 every tiny detail...
-
 was made while thinking about you.
-
 I wanted this surprise to make you smile,
-
 even if only for a few minutes.
-
 Because seeing you happy
 has always been one of my favorite things.
-
 I hope today reminds you
 how loved,
 how appreciated,
 and how special you truly are.
-
 Never stop smiling.
-
 Never stop being the amazing person you are.
-
 And whenever life feels difficult,
-
 remember...
-
 there's someone who will always want
 to see that beautiful smile again.
 
 Thank you...
-
 for being part of so many beautiful memories.
-
 Thank you...
-
 for simply being YOU.
 
 Happy Birthday once again,
@@ -611,7 +593,6 @@ more adventures,
 and countless beautiful moments.
 
 With all my heart,
-
 Akash ❤️
 
 `;
@@ -620,30 +601,32 @@ function typeLetter(){
 
     let i = 0;
 
-   const cleanLetter = loveLetter.replace(/\n{3,}/g, "\n\n");
+    const cleanLetter = loveLetter.replace(/\n{3,}/g, "\n\n");
 
     letterContent.innerHTML = "";
 
-    // 🌸 Start floating petals
     const petals = setInterval(createPetal, 700);
 
-    const typing = setInterval(()=>{
+    function typeNext() {
 
         letterContent.innerHTML += cleanLetter.charAt(i);
-
         i++;
 
-        if(i >= cleanLetter.length){
-
-            clearInterval(typing);
+        if (i >= cleanLetter.length) {
 
             clearInterval(petals);
 
             setTimeout(showReasons, 3000);
 
+            return;
         }
 
-    },35);
+        // Random typing speed (40–80ms)
+        setTimeout(typeNext, 60 + Math.random() * 60);
+
+    }
+
+    typeNext();
 
 }
 
