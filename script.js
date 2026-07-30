@@ -72,7 +72,7 @@ const seal = document.querySelector(".wax-seal");
 
 beginBtn.addEventListener("click",()=>{
 
-    alert("Begin button clicked!");
+    console.log("BEGIN CLICKED");
 
     intro.style.opacity="0";
 
