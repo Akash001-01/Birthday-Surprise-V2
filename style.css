@@ -34,10 +34,15 @@ color:#fff;
 
 /* ================================ */
 
-.hidden{
-
-   display:none;
-
+#intro.hidden,
+#envelopeSection.hidden,
+#passwordSection.hidden,
+#birthdaySection.hidden,
+#questionsSection.hidden,
+#letterSection.hidden,
+#reasonsSection.hidden,
+#finalSection.hidden{
+    display:none;
 }
 
 /* ================================ */
