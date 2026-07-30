@@ -70,19 +70,15 @@ const seal = document.querySelector(".wax-seal");
    Intro → Envelope
 =========================== */
 
-beginBtn.addEventListener("click",()=>{
+beginBtn.addEventListener("click", () => {
 
-    console.log("BEGIN CLICKED");
+    console.log("CLICK");
 
-    intro.style.opacity="0";
+    intro.classList.add("hidden");
 
-    setTimeout(()=>{
+    envelopeSection.classList.remove("hidden");
 
-        intro.classList.add("hidden");
-
-        envelopeSection.classList.remove("hidden");
-
-    },1200);
+    envelopeSection.style.display = "flex";
 
 });
 
