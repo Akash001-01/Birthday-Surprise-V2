@@ -620,6 +620,8 @@ function typeLetter(){
 
     let i = 0;
 
+   const cleanLetter = loveLetter.replace(/\n{3,}/g, "\n\n");
+
     letterContent.innerHTML = "";
 
     // 🌸 Start floating petals
