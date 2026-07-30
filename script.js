@@ -629,11 +629,11 @@ function typeLetter(){
 
     const typing = setInterval(()=>{
 
-        letterContent.innerHTML += loveLetter.charAt(i);
+        letterContent.innerHTML += cleanLetter.charAt(i);
 
         i++;
 
-        if(i >= loveLetter.length){
+        if(i >= cleanLetter.length){
 
             clearInterval(typing);
 
