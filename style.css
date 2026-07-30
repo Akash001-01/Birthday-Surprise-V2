@@ -1064,6 +1064,12 @@ margin-bottom:40px;
 
 color:#ff4f81;
 
+max-height: 70vh;
+   
+overflow-y: auto;
+
+scroll-behavior: smooth;
+
 }
 
 #letterContent{
