@@ -548,7 +548,7 @@ document.getElementById("reasonNumber");
 const reasonText =
 document.getElementById("reasonText");
 
-const letter = `
+const loveLetter = `
 
 My Dearest Sweeetuuhh ❤️,
 
@@ -629,11 +629,11 @@ function typeLetter(){
 
     const typing = setInterval(()=>{
 
-        letterContent.innerHTML += letter.charAt(i);
+        letterContent.innerHTML += loveletter.charAt(i);
 
         i++;
 
-        if(i >= letter.length){
+        if(i >= loveletter.length){
 
             clearInterval(typing);
 
