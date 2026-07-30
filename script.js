@@ -610,6 +610,7 @@ function typeLetter(){
     function typeNext() {
 
         letterContent.innerHTML += cleanLetter.charAt(i);
+        letterContent.scrollTop = letterContent.scrollHeight;
         i++;
 
         if (i >= cleanLetter.length) {
