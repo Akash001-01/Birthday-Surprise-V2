@@ -1311,3 +1311,103 @@ transform:translateY(0);
 }
 
 }
+
+/* ==========================================
+   MOBILE RESPONSIVE
+========================================== */
+
+@media (max-width:768px){
+
+    button{
+        width:90%;
+        padding:16px;
+        font-size:18px;
+    }
+
+    /* Intro */
+    .intro-page h1{
+        font-size:42px;
+    }
+
+    .intro-page h2{
+        font-size:58px;
+    }
+
+    .intro-page p{
+        font-size:18px;
+        line-height:1.7;
+    }
+
+    /* Envelope */
+    .envelope{
+        width:280px;
+        height:190px;
+    }
+
+    .envelope-letter h2{
+        font-size:32px;
+    }
+
+    .envelope-letter p{
+        font-size:18px;
+    }
+
+    /* Cards */
+    .password-card,
+    .birthday-card,
+    .question-card,
+    .reason-card,
+    .letter-paper{
+
+        width:95%;
+        padding:28px;
+
+    }
+
+    /* Titles */
+    .password-card h2,
+    .birthday-card h1,
+    #questionTitle,
+    .letter-title,
+    #reasonNumber{
+
+        font-size:38px;
+
+    }
+
+    /* Text */
+    .birthday-message,
+    #questionSubtitle,
+    #responseText,
+    #reasonText{
+
+        font-size:18px;
+        line-height:1.7;
+
+    }
+
+    /* Love Letter */
+
+    #letterContent{
+
+        height:55vh;
+        font-size:19px;
+        line-height:1.8;
+
+    }
+
+    /* Final */
+
+    #finalTitle{
+        font-size:50px;
+    }
+
+    #finalSubtitle{
+        font-size:24px;
+    }
+
+    #finalEnding{
+        font-size:18px;
+    }
+
+}
