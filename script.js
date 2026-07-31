@@ -753,10 +753,194 @@ function reasonsFinished(){
 
         reasonsSection.classList.add("hidden");
 
-        // Fireworks Section
+        finalSection.classList.remove("hidden");
 
-        alert("🎆 Fireworks Coming Next");
+        startFireworks();
 
     },1200);
+
+}
+
+// =========================
+// FIREWORKS ENGINE
+// =========================
+
+let fireworks = [];
+let particles = [];
+
+function resizeCanvas(){
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+}
+
+resizeCanvas();
+
+window.addEventListener("resize", resizeCanvas);
+
+// -------------------------
+
+class Firework{
+
+    constructor(){
+
+        this.x = Math.random()*canvas.width;
+        this.y = canvas.height;
+
+        this.targetY =
+        100 + Math.random()*250;
+
+        this.speed = 6 + Math.random()*3;
+
+        this.color =
+        `hsl(${Math.random()*360},100%,60%)`;
+
+    }
+
+    update(){
+
+        this.y -= this.speed;
+
+        if(this.y <= this.targetY){
+
+            explode(this.x,this.y,this.color);
+
+            return false;
+
+        }
+
+        return true;
+
+    }
+
+    draw(){
+
+        ctx.beginPath();
+
+        ctx.arc(this.x,this.y,3,0,Math.PI*2);
+
+        ctx.fillStyle=this.color;
+
+        ctx.fill();
+
+    }
+
+}
+
+// -------------------------
+
+class Particle{
+
+    constructor(x,y,color){
+
+        this.x=x;
+        this.y=y;
+
+        const angle=Math.random()*Math.PI*2;
+
+        const speed=Math.random()*5+2;
+
+        this.vx=Math.cos(angle)*speed;
+        this.vy=Math.sin(angle)*speed;
+
+        this.alpha=1;
+
+        this.color=color;
+
+        this.size=2+Math.random()*2;
+
+    }
+
+    update(){
+
+        this.x+=this.vx;
+
+        this.y+=this.vy;
+
+        this.vy+=0.04;
+
+        this.alpha-=0.012;
+
+        return this.alpha>0;
+
+    }
+
+    draw(){
+
+        ctx.globalAlpha=this.alpha;
+
+        ctx.beginPath();
+
+        ctx.arc(this.x,this.y,this.size,0,Math.PI*2);
+
+        ctx.fillStyle=this.color;
+
+        ctx.fill();
+
+        ctx.globalAlpha=1;
+
+    }
+
+}
+
+// -------------------------
+
+function explode(x,y,color){
+
+    for(let i=0;i<80;i++){
+
+        particles.push(
+
+            new Particle(x,y,color)
+
+        );
+
+    }
+
+}
+
+// -------------------------
+
+function animateFireworks(){
+
+    ctx.fillStyle="rgba(0,0,0,.18)";
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+
+    fireworks = fireworks.filter(f=>{
+
+        f.draw();
+
+        return f.update();
+
+    });
+
+    particles = particles.filter(p=>{
+
+        p.draw();
+
+        return p.update();
+
+    });
+
+    requestAnimationFrame(animateFireworks);
+
+}
+
+// -------------------------
+
+function startFireworks(){
+
+    animateFireworks();
+
+    setInterval(()=>{
+
+        fireworks.push(
+
+            new Firework()
+
+        );
+
+    },700);
 
 }
