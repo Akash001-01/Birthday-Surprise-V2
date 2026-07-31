@@ -977,11 +977,12 @@ transform:scale(1);
 
 #letterSection{
 
-display:flex;
-justify-content:center;
-align-items:center;
+    height: 100vh;
+    overflow: hidden;
 
-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 background:linear-gradient(180deg,#fff8fc,#ffe8f2);
 
