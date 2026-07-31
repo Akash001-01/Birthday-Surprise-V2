@@ -993,7 +993,7 @@ background:linear-gradient(180deg,#fff8fc,#ffe8f2);
 width:92%;
 max-width:750px;
 
-padding:55px;
+padding:35px;
 
 background:white;
 
@@ -1003,9 +1003,9 @@ box-shadow:0 20px 60px rgba(0,0,0,.12);
 
 font-family:'Cormorant Garamond',serif;
 
-line-height:2;
+line-height:1.8;
 
-font-size:28px;
+font-size:22px;
 
 color:#555;
 
@@ -1065,27 +1065,27 @@ margin-bottom:40px;
 
 color:#ff4f81;
 
-max-height: 70vh;
-   
-overflow-y: auto;
-
-scroll-behavior: smooth;
-
 }
 
 #letterContent{
 
-white-space:pre-line;
+    white-space: pre-line;
 
-min-height:350px;
+    height: 60vh;
 
-font-size:28px;
+    overflow-y: auto;
 
-line-height:2.1;
+    padding-right: 12px;
 
-color:#555;
+    font-size: 24px;
 
-position:relative;
+    line-height: 1.8;
+
+    color: #555;
+
+    position: relative;
+
+    scroll-behavior: smooth;
 
 }
 
