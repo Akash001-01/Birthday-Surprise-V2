@@ -908,7 +908,7 @@ function explode(x,y,color){
 
 function animateFireworks(){
 
-    ctx.fillStyle="rgba(0,0,0,.18)";
+    ctx.fillStyle="rgba(0,0,0,.08)";
     ctx.fillRect(0,0,canvas.width,canvas.height);
 
     fireworks = fireworks.filter(f=>{
