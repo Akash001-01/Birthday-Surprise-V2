@@ -1271,39 +1271,44 @@ height:100%;
 
 .final-message{
 
-position:relative;
+    position:relative;
 
-z-index:5;
+    z-index:100;
 
-text-align:center;
+    text-align:center;
 
-opacity:0;
+    animation:float 4s ease-in-out infinite;
 
-animation:finalFade 3s forwards;
+}
 
-animation-delay:2.5s;
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-8px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
 
 }
 
 #finalTitle{
 
-font-family:'Parisienne';
-
-font-size:80px;
-
-color:white;
-
-margin-bottom:20px;
+    text-shadow:
+        0 0 15px white,
+        0 0 35px hotpink;
 
 }
 
 #finalSubtitle{
 
-font-size:42px;
-
-color:#FFD6E8;
-
-margin-bottom:40px;
+    text-shadow:
+        0 0 10px hotpink;
 
 }
 
