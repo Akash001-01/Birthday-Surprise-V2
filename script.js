@@ -765,6 +765,10 @@ function reasonsFinished(){
 // FIREWORKS ENGINE
 // =========================
 
+const finalSection = document.getElementById("finalSection");
+const canvas = document.getElementById("fireworks");
+const ctx = canvas.getContext("2d");
+
 let fireworks = [];
 let particles = [];
 
