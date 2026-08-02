@@ -172,7 +172,7 @@ unlockBtn.addEventListener("click",()=>{
 
         passwordMessage.innerHTML=
 
-        "💭 Think about the day our story began... ❤️";
+        "💭 Think about the day our first meetup 🤭❤️";
 
     }
 
