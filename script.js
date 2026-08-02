@@ -1029,9 +1029,9 @@ class Sakura{
 
         this.y = -30;
 
-        this.size = 12 + Math.random()*18;
+        this.size = 20 + Math.random()*15;
 
-        this.speed = 0.8 + Math.random()*1.8;
+        this.speed = 0.5 + Math.random()*1.0;
 
         this.swing = Math.random()*2;
 
@@ -1071,12 +1071,10 @@ class Sakura{
 
         ctx.fillStyle="#ff9fcf";
 
-        ctx.beginPath();
-
-        ctx.ellipse(0,0,this.size/2,this.size/3,0,0,Math.PI*2);
-
-        ctx.fill();
-
+        ctx.font = this.size + "px Arial";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        ctx.fillText("❤️", 0, 0);
         ctx.restore();
 
         }
