@@ -148,7 +148,7 @@ unlockBtn.addEventListener("click",()=>{
 
     if(passwordInput.value==="0516"){
 
-        passwordMessage.innerHTML="❤️<br>You remembered...";
+        passwordMessage.innerHTML="❤️You remembered...";
 
         setTimeout(()=>{
 
@@ -172,7 +172,7 @@ unlockBtn.addEventListener("click",()=>{
 
         passwordMessage.innerHTML=
 
-        "💭 Think about the day our first meetup 🤭❤️";
+        "Think about the day our first meetup 🤭❤️";
 
     }
 
