@@ -1074,22 +1074,3 @@ class Sakura{
     }
 
 }
-
-// ===============================
-// TEST FINAL SECTION
-// ===============================
-
-window.addEventListener("load", () => {
-
-    // Hide all sections
-    document.querySelectorAll("section").forEach(section => {
-        section.classList.add("hidden");
-    });
-
-    // Show only final section
-    finalSection.classList.remove("hidden");
-
-    // Start fireworks
-    startFireworks();
-
-});
