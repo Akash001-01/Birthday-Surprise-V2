@@ -1297,6 +1297,22 @@ height:100%;
 
 }
 
+@keyframes pulseLove{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.08);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}
+
 #finalTitle{
 
     text-shadow:
@@ -1307,20 +1323,25 @@ height:100%;
 
 #finalSubtitle{
 
-    font-family:'Quicksand',sans-serif;
+    font-family:'Parisienne',cursive;
 
-    font-size:70px;
+    font-size:110px;
 
-    font-weight:700;
+    font-weight:normal;
 
-    color:#ff9ac8;
+    color:#ff8fc7;
 
-    margin:15px 0 25px;
+    margin:10px 0 30px;
+
+    letter-spacing:2px;
 
     text-shadow:
-        0 0 10px #ff4f81,
-        0 0 20px #ff4f81,
-        0 0 40px #ff4f81;
+        0 0 15px #ff4f81,
+        0 0 35px #ff4f81,
+        0 0 60px #ff4f81,
+        0 0 100px rgba(255,79,129,.8);
+
+    animation:pulseLove 2.5s ease-in-out infinite;
 
 }
 
@@ -1446,7 +1467,7 @@ transform:translateY(0);
 
     #finalSubtitle{
 
-    font-size:45px;
+    font-size:60px;
 
 }
 
