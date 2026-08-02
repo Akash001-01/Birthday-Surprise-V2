@@ -892,6 +892,16 @@ class Particle{
 
 function explode(x,y,color){
 
+    const isHeart = Math.random() < 0.25; // 25% chance
+
+    if(isHeart){
+
+        createHeartExplosion(x,y,color);
+
+        return;
+
+    }
+
     for(let i=0;i<180;i++){
 
         particles.push(
@@ -899,6 +909,34 @@ function explode(x,y,color){
             new Particle(x,y,color)
 
         );
+
+    }
+
+}
+
+function createHeartExplosion(x,y,color){
+
+    for(let i=0;i<220;i++){
+
+        const t = (Math.PI * 2 * i) / 220;
+
+        const hx = 16 * Math.pow(Math.sin(t),3);
+
+        const hy =
+            -(13*Math.cos(t)
+            -5*Math.cos(2*t)
+            -2*Math.cos(3*t)
+            -Math.cos(4*t));
+
+        const p = new Particle(x,y,color);
+
+        p.vx = hx * 0.45;
+
+        p.vy = hy * 0.45;
+
+        p.size = 3 + Math.random()*2;
+
+        particles.push(p);
 
     }
 
