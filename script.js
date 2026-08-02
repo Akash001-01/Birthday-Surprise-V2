@@ -782,12 +782,6 @@ function resizeCanvas(){
 
 resizeCanvas();
 
-for(let i=0;i<40;i++){
-
-    sakura.push(new Sakura());
-
-}
-
 window.addEventListener("resize", resizeCanvas);
 
 // -------------------------
@@ -899,7 +893,7 @@ class Particle{
 
 function explode(x,y,color){
 
-    const isHeart = Math.random() < 0.12; // 25% chance
+    const isHeart = Math.random() < 0.12; // 12% chance
 
     if(isHeart){
 
@@ -985,17 +979,17 @@ function animateFireworks(){
 
 // -------------------------
 
+let fireworkInterval;
+
 function startFireworks(){
+
+    if(fireworkInterval) return;
 
     animateFireworks();
 
-    setInterval(()=>{
+    fireworkInterval = setInterval(()=>{
 
-        fireworks.push(
-
-            new Firework()
-
-        );
+        fireworks.push(new Firework());
 
     },350);
 
@@ -1070,6 +1064,12 @@ class Sakura{
         ctx.fill();
 
         ctx.restore();
+
+       for(let i=0;i<40;i++){
+
+    sakura.push(new Sakura());
+
+}
 
     }
 
