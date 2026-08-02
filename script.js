@@ -148,7 +148,7 @@ unlockBtn.addEventListener("click",()=>{
 
     if(passwordInput.value==="0516"){
 
-        passwordMessage.innerHTML="❤️<br><br>You remembered...";
+        passwordMessage.innerHTML="❤️<br>You remembered...";
 
         setTimeout(()=>{
 
