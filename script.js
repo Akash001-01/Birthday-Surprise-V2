@@ -931,9 +931,8 @@ function createHeartExplosion(x,y,color){
 
         const p = new Particle(x,y,color);
 
-        p.vx = hx * 0.30;
-
-        p.vy = hy * 0.30;
+        p.vx = hx * 0.18;
+        p.vy = hy * 0.18;
 
         p.size = 5 + Math.random()*2;
 
