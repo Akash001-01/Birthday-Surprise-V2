@@ -793,7 +793,7 @@ class Firework{
         this.y = canvas.height;
 
         this.targetY =
-        100 + Math.random()*250;
+        50 + Math.random() * (canvas.height * 0.6);
 
         this.speed = 6 + Math.random()*3;
 
