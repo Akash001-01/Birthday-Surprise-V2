@@ -659,45 +659,55 @@ petal.remove();
 
 const reasons = [
 
-{emoji:"❤️",text:"Your smile makes ordinary days feel extraordinary."},
+{
+    emoji:"❤️",
+    text:"Your smile makes ordinary days feel extraordinary."
+},
 
-{emoji:"🌸",text:"You make people feel comfortable just by being yourself."},
+{
+    emoji:"🌸",
+    text:"You make people feel comfortable just by being yourself."
+},
 
-{emoji:"✨",text:"Your happiness genuinely matters to me."},
+{
+    emoji:"✨",
+    text:"Your happiness genuinely matters to me."
+},
 
-{emoji:"🥹",text:"Every conversation with you becomes a beautiful memory."},
+{
+    emoji:"🥹",
+    text:"Every conversation with you becomes a beautiful memory."
+},
 
-{emoji:"💖",text:"Your kindness is something I'll always admire."},
+{
+    emoji:"💖",
+    text:"Your kindness is something I'll always admire."
+},
 
-{emoji:"😊",text:"You make even simple moments feel special."},
+{
+    emoji:"😊",
+    text:"You make even simple moments feel special."
+},
 
-{emoji:"🌙",text:"Your calmness brings peace to my heart."},
+{
+    emoji:"🌙",
+    text:"Your calmness brings peace to my heart."
+},
 
-{emoji:"☀️",text:"You brighten every room without even trying."},
+{
+    emoji:"💌",
+    text:"You inspire me to become a better person."
+},
 
-{emoji:"💌",text:"You inspire me to become a better person."},
+{
+    emoji:"🥰",
+    text:"Thank you for simply being YOU."
+},
 
-{emoji:"🌹",text:"Your heart is more beautiful than words can describe."},
-
-{emoji:"🎀",text:"Your little habits always make me smile."},
-
-{emoji:"🦋",text:"Life feels lighter whenever you're around."},
-
-{emoji:"💞",text:"You make happiness look effortless."},
-
-{emoji:"🌼",text:"Your laugh is one of my favorite sounds."},
-
-{emoji:"⭐",text:"You're one of the brightest parts of my life."},
-
-{emoji:"🤍",text:"You deserve every beautiful thing this world can offer."},
-
-{emoji:"🌍",text:"Being with you makes the world feel smaller and warmer."},
-
-{emoji:"🥰",text:"You make love feel simple and genuine."},
-
-{emoji:"💝",text:"Thank you for simply being YOU."},
-
-{emoji:"❤️",text:"And the biggest reason...\n\nBecause you're YOU.\n\nThat's more than enough."}
+{
+    emoji:"❤️",
+    text:"And the biggest reason...\n\nBecause you're YOU.\n\nThat's more than enough."
+}
 
 ];
 
@@ -741,7 +751,7 @@ function playReasons(){
 
     currentReason++;
 
-    setTimeout(playReasons,4000);
+    setTimeout(playReasons,3000);
 
 }
 
@@ -1090,25 +1100,19 @@ function showFinalMessage(){
 
         <h2>Happy Birthday</h2>
 
-        <h3>My Sweeetuuhh</h3>
+        <h3>My Sweeetuuhh 💖😘</h3>
 
         <p>
             Every screen...
-            <br><br>
             Every animation...
-            <br><br>
             Every little detail...
-            <br><br>
             was made thinking about you.
-            <br><br>
             I hope this birthday brings you endless smiles.
             <br><br>
             Thank you for being YOU.
             <br><br>
-
             Love,
-            <br><br>
-            <strong>Akash ❤️</strong>
+            <strong>Akash 🫶</strong>
         </p>
     `;
 
