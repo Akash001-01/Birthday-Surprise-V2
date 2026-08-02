@@ -1441,3 +1441,76 @@ transform:translateY(0);
     }
 
 }
+
+#endingCard{
+
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    background:rgba(0,0,0,.75);
+
+    color:white;
+
+    z-index:9999;
+
+    opacity:0;
+
+    animation:endingFade 2s forwards;
+
+}
+
+#endingCard h1{
+
+    font-size:80px;
+
+}
+
+#endingCard h2{
+
+    font-size:52px;
+
+    margin:10px 0;
+
+}
+
+#endingCard h3{
+
+    color:#ff7fb5;
+
+    margin-bottom:30px;
+
+}
+
+#endingCard p{
+
+    max-width:700px;
+
+    line-height:2;
+
+    font-size:20px;
+
+}
+
+@keyframes endingFade{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
