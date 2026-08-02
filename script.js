@@ -772,6 +772,7 @@ const ctx = canvas.getContext("2d");
 let fireworks = [];
 let particles = [];
 let sakura = [];
+let fireworkInterval;
 
 function resizeCanvas(){
 
@@ -983,8 +984,6 @@ let fireworkInterval;
 
 function startFireworks(){
 
-    if(fireworkInterval) return;
-
     animateFireworks();
 
     fireworkInterval = setInterval(()=>{
@@ -992,6 +991,14 @@ function startFireworks(){
         fireworks.push(new Firework());
 
     },350);
+
+    setTimeout(()=>{
+
+        clearInterval(fireworkInterval);
+
+        showFinalMessage();
+
+    },15000);
 
 }
 
@@ -1071,6 +1078,46 @@ class Sakura{
 
 }
 
-    }
+}
+function showFinalMessage(){
+
+    const card = document.createElement("div");
+
+    card.id = "endingCard";
+
+    card.innerHTML = `
+        <h1>❤️</h1>
+
+        <h2>Happy Birthday</h2>
+
+        <h3>My Sweeetuuhh</h3>
+
+        <p>
+            Every screen...
+            <br><br>
+
+            Every animation...
+            <br><br>
+
+            Every little detail...
+            <br><br>
+
+            was made thinking about you.
+            <br><br>
+
+            I hope this birthday brings you endless smiles.
+            <br><br>
+
+            Thank you for being YOU.
+            <br><br>
+
+            Love,
+            <br><br>
+
+            <strong>Akash ❤️</strong>
+        </p>
+    `;
+
+    finalSection.appendChild(card);
 
 }
