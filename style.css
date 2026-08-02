@@ -1429,11 +1429,11 @@ transform:translateY(0);
     /* Final */
 
     #finalTitle{
-        font-size:50px;
+        font-size: clamp(4rem,7vw,6rem);
     }
 
     #finalSubtitle{
-        font-size:24px;
+        font-size: clamp(2rem,4vw,3rem);
     }
 
     #finalEnding{
