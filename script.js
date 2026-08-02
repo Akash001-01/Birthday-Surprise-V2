@@ -980,8 +980,6 @@ function animateFireworks(){
 
 // -------------------------
 
-let fireworkInterval;
-
 function startFireworks(){
 
     animateFireworks();
@@ -1072,13 +1070,16 @@ class Sakura{
 
         ctx.restore();
 
-       for(let i=0;i<40;i++){
+        }
+
+}
+
+for(let i=0;i<40;i++){
 
     sakura.push(new Sakura());
 
 }
 
-}
 function showFinalMessage(){
 
     const card = document.createElement("div");
