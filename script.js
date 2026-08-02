@@ -852,7 +852,7 @@ class Particle{
 
         this.color=color;
 
-        this.size=2+Math.random()*2;
+        this.size=3+Math.random()*3;
 
     }
 
@@ -892,7 +892,7 @@ class Particle{
 
 function explode(x,y,color){
 
-    for(let i=0;i<80;i++){
+    for(let i=0;i<180;i++){
 
         particles.push(
 
@@ -945,6 +945,6 @@ function startFireworks(){
 
         );
 
-    },700);
+    },350);
 
 }
