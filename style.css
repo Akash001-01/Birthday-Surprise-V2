@@ -1307,8 +1307,20 @@ height:100%;
 
 #finalSubtitle{
 
+    font-family:'Quicksand',sans-serif;
+
+    font-size:70px;
+
+    font-weight:700;
+
+    color:#ff9ac8;
+
+    margin:15px 0 25px;
+
     text-shadow:
-        0 0 10px hotpink;
+        0 0 10px #ff4f81,
+        0 0 20px #ff4f81,
+        0 0 40px #ff4f81;
 
 }
 
@@ -1433,8 +1445,10 @@ transform:translateY(0);
     }
 
     #finalSubtitle{
-        font-size: clamp(2rem,4vw,3rem);
-    }
+
+    font-size:45px;
+
+}
 
     #finalEnding{
         font-size:18px;
