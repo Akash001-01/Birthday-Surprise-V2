@@ -985,3 +985,79 @@ function startFireworks(){
     },350);
 
 }
+
+// =====================================
+// SAKURA PETALS
+// =====================================
+
+let sakura = [];
+
+class Sakura{
+
+    constructor(){
+
+        this.reset();
+
+        this.y = -20;
+
+    }
+
+    reset(){
+
+        this.x = Math.random()*canvas.width;
+
+        this.y = -30;
+
+        this.size = 12 + Math.random()*18;
+
+        this.speed = 0.8 + Math.random()*1.8;
+
+        this.swing = Math.random()*2;
+
+        this.angle = Math.random()*360;
+
+        this.rotate = Math.random()*2-1;
+
+        this.alpha = 0.6 + Math.random()*0.4;
+
+    }
+
+    update(){
+
+        this.y += this.speed;
+
+        this.x += Math.sin(this.y*0.02)*this.swing;
+
+        this.angle += this.rotate;
+
+        if(this.y>canvas.height+40){
+
+            this.reset();
+
+        }
+
+    }
+
+    draw(){
+
+        ctx.save();
+
+        ctx.translate(this.x,this.y);
+
+        ctx.rotate(this.angle*Math.PI/180);
+
+        ctx.globalAlpha=this.alpha;
+
+        ctx.fillStyle="#ff9fcf";
+
+        ctx.beginPath();
+
+        ctx.ellipse(0,0,this.size/2,this.size/3,0,0,Math.PI*2);
+
+        ctx.fill();
+
+        ctx.restore();
+
+    }
+
+}
