@@ -892,12 +892,11 @@ class Particle{
 
 function explode(x,y,color){
 
-    const isHeart = Math.random() < 0.25; // 25% chance
+    const isHeart = Math.random() < 0.12; // 25% chance
 
     if(isHeart){
 
-        createHeartExplosion(x,y,color);
-
+        createHeartExplosion(x, y, "#ff4f9d");
         return;
 
     }
@@ -930,11 +929,11 @@ function createHeartExplosion(x,y,color){
 
         const p = new Particle(x,y,color);
 
-        p.vx = hx * 0.45;
+        p.vx = hx * 0.30;
 
-        p.vy = hy * 0.45;
+        p.vy = hy * 0.30;
 
-        p.size = 3 + Math.random()*2;
+        p.size = 5 + Math.random()*2;
 
         particles.push(p);
 
