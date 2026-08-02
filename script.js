@@ -1095,25 +1095,19 @@ function showFinalMessage(){
         <p>
             Every screen...
             <br><br>
-
             Every animation...
             <br><br>
-
             Every little detail...
             <br><br>
-
             was made thinking about you.
             <br><br>
-
             I hope this birthday brings you endless smiles.
             <br><br>
-
             Thank you for being YOU.
             <br><br>
 
             Love,
             <br><br>
-
             <strong>Akash ❤️</strong>
         </p>
     `;
