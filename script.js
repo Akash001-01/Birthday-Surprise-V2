@@ -1005,8 +1005,6 @@ function startFireworks(){
 // SAKURA PETALS
 // =====================================
 
-let sakura = [];
-
 class Sakura{
 
     constructor(){
