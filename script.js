@@ -771,6 +771,7 @@ const ctx = canvas.getContext("2d");
 
 let fireworks = [];
 let particles = [];
+let sakura = [];
 
 function resizeCanvas(){
 
@@ -780,6 +781,12 @@ function resizeCanvas(){
 }
 
 resizeCanvas();
+
+for(let i=0;i<40;i++){
+
+    sakura.push(new Sakura());
+
+}
 
 window.addEventListener("resize", resizeCanvas);
 
@@ -947,6 +954,14 @@ function animateFireworks(){
 
     ctx.fillStyle="rgba(0,0,0,.08)";
     ctx.fillRect(0,0,canvas.width,canvas.height);
+
+   sakura.forEach(p=>{
+
+    p.update();
+
+    p.draw();
+
+});
 
     fireworks = fireworks.filter(f=>{
 
