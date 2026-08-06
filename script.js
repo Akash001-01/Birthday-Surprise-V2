@@ -59,6 +59,7 @@ const intro = document.getElementById("intro");
 const envelopeSection = document.getElementById("envelopeSection");
 
 const beginBtn = document.getElementById("beginBtn");
+const bgMusic = document.getElementById("bgMusic");
 const openLetterBtn = document.getElementById("openLetterBtn");
 
 const envelope = document.getElementById("envelope");
@@ -73,6 +74,8 @@ const seal = document.querySelector(".wax-seal");
 beginBtn.addEventListener("click", () => {
 
     console.log("CLICK");
+
+    startMusic();   // ❤️ Start music
 
     intro.classList.add("hidden");
 
@@ -1115,5 +1118,57 @@ function showFinalMessage(){
     `;
 
     finalSection.appendChild(card);
+
+}
+
+// ===============================
+// BACKGROUND MUSIC
+// ===============================
+
+function startMusic(){
+
+    bgMusic.volume = 0;
+
+    bgMusic.play().catch(() => {});
+
+    let volume = 0;
+
+    const fade = setInterval(() => {
+
+        volume += 0.02;
+
+        if(volume >= 0.35){
+
+            volume = 0.35;
+
+            clearInterval(fade);
+
+        }
+
+        bgMusic.volume = volume;
+
+    },200);
+
+}
+
+function stopMusic(){
+
+    const fade = setInterval(() => {
+
+        if(bgMusic.volume > 0.02){
+
+            bgMusic.volume -= 0.02;
+
+        }else{
+
+            bgMusic.pause();
+
+            bgMusic.currentTime = 0;
+
+            clearInterval(fade);
+
+        }
+
+    },200);
 
 }
