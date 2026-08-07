@@ -1565,6 +1565,12 @@ transform:translateY(0);
     animation:fadeIn 0.8s ease;
 }
 
+.intro-hearts{
+    font-size:32px;
+    margin-bottom:25px;
+    letter-spacing:8px;
+}
+
 #questionIntro h2{
     color:#ff4f8b;
     font-size:42px;
