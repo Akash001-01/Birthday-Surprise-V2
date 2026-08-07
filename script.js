@@ -225,172 +225,296 @@ let currentQuestion = 0;
 
 const questions = [
 
+const questions = [
+
 {
-title:"Can we play a little game? 😊",
-subtitle:"I promise it'll only take a minute. ❤️",
-answers:["Let's Play ❤️"],
+title:"Enna paatha unakku first enna thonum? 🤭",
+subtitle:"Choose honestly... ❤️",
+answers:[
+"😊 Cute",
+"😂 Loosu",
+"🥹 Caring",
+"❤️ Ellameyy"
+],
 responses:[
 {
-title:"Yay!!",
-text:"I knew you'd say yes. ❤️"
+title:"😊 Awww...",
+text:"Cute-ah? Adha ketta odane enakku semma happy aayiduchu. 🥹❤️"
+},
+{
+title:"😂 Hehe...",
+text:"Seri... loosu dhaan. Aana indha loosu unakku mattum dhaan. 🤭💖"
+},
+{
+title:"🥹 Thank You...",
+text:"Unna care pannradhu enakku romba pidikkum. Adha nee notice pannadhe romba special. ❤️"
+},
+{
+title:"❤️ My Favourite...",
+text:"Idha dhaan naan expect pannen... ellameyy-na naan official-aa happy. 🥹🤍"
 }
 ]
 },
 
 {
-title:"If I could keep one thing forever...",
-subtitle:"Choose one... 🥹",
+title:"Ennoda Chellam, Thangoo, Pattu elameyy yaru? 🥹❤️",
+subtitle:"Idhuku correct answer theriyume... 🤭",
 answers:[
-"😊 Your Smile",
-"😂 Your Cute Anger",
-"❤️ Your Heart",
-"🌍 Everything About You"
+"🌸 Sai Dhatchayani",
+"💖 You (Sai)",
+"🥰 Sweeeetuhhh",
+"🤭 All the Above"
 ],
 responses:[
-{title:"Aww...",text:"Your smile makes every day brighter."},
-{title:"Hehe...",text:"Even your cute anger makes me smile."},
-{title:"Exactly...",text:"Your heart is the most beautiful thing about you."},
-{title:"❤️",text:"Honestly... I wanted to choose all of them."}
+{
+title:"🌸 Beautiful...",
+text:"Peyar romba azhagu... aana enakku nee adha vida romba special. ❤️"
+},
+{
+title:"💖 Exactly...",
+text:"Aama... nee dhaan! En favourite person forever. 🥹"
+},
+{
+title:"🥰 Hehe...",
+text:"Sweeeetuhhh nu koopidradhu enakku romba pidikkum. ❤️"
+},
+{
+title:"🤭 Jackpot!",
+text:"Correct-u! Nee en Chellam... Thangoo... Pattu... Sweeeetuhhh... ellameyy nee dhaan. ❤️🥹"
+}
 ]
 },
 
 {
-title:"If today had only one rule...",
-subtitle:"What would you choose?",
+title:"Namma next date-ku enga pogalam? 🥹❤️",
+subtitle:"Let's make another beautiful memory... ✨",
 answers:[
-"🥳 Smile More",
-"🍰 Eat More Cake",
-"❤️ Stay Happy",
-"✨ All Of The Above"
+"🌊 Beach",
+"☕ Cute Cafe",
+"🏍️ Long Ride",
+"✈️ Surprise Trip"
 ],
 responses:[
-{title:"😊",text:"Your smile is enough to brighten today."},
-{title:"🍰",text:"Birthday means cake is mandatory!"}, 
-{title:"❤️",text:"That's all I've wished for."},
-{title:"✨",text:"Perfect choice. I expected nothing less."}
+{
+title:"🌅 Perfect!",
+text:"Sunset-ah vida azhaga irukum... nee en pakkathula irundha. 🌊❤️"
+},
+{
+title:"☕ Coffee Date!",
+text:"Coffee kulirndhaalum parava illa... namma conversations dhaan enakku romba pidikkum. 🤭❤️"
+},
+{
+title:"🏍️ Let's Go!",
+text:"Road evlo long irundhaalum parava illa... nee pinnadi irundha pothum. ❤️"
+},
+{
+title:"✈️ Adventure!",
+text:"Bags pack panniko... destination secret! Aana oru condition... en kaiya vida koodadhu. 🤭❤️"
+}
+]
+},
+{
+title:"Naan daily message panninaa...? 📱❤️",
+subtitle:"Un honest answer venum... 🤭",
+answers:[
+"🥰 Happy",
+"🤭 Smile",
+"😂 Ignore",
+"❤️ Wait pannitu irupen"
+],
+responses:[
+{
+title:"🥰 Awww...",
+text:"Idha ketta romba happy aayiten... appo daily message pannuren. ❤️"
+},
+{
+title:"🤭 Cute...",
+text:"Un smile-kaaga dhaan sila neram message anupuren. 🥹💕"
+},
+{
+title:"😂 Aiyoo...",
+text:"Ignore panna fine ₹100! 😂 Aana next message kandipa anupiduven. 🤭"
+},
+{
+title:"❤️ My Favourite...",
+text:"Indha answer dhaan enakku romba pidichadhu... waiting-ku reward oru big hug. 🥹❤️"
+}
 ]
 },
 
 {
-title:"Which notification makes me smile instantly?",
-subtitle:"🤭",
+title:"Enna oru word-la describe panna...? 🥹",
+subtitle:"Just one word... ❤️",
 answers:[
-"📱 Your Message",
-"📦 Amazon Delivery",
-"💰 Salary Credit",
-"🎮 Game Invite"
+"❤️ Sweet",
+"😂 Loosu",
+"🤍 Caring",
+"🌍 Home"
 ],
 responses:[
-{title:"❤️",text:"Every message from you makes my day better."},
-{title:"😂",text:"Nice try... but not quite."},
-{title:"💰",text:"Useful... but not as special as you."},
-{title:"🎮",text:"Games can wait. You can't."}
+{
+title:"❤️ Sweet-aa?",
+text:"Nee sonna indha oru word pothum... whole day smile pannitu iruppen. 🥹"
+},
+{
+title:"😂 Hehe...",
+text:"Loosu dhaan... aana un loosu. Adhu podhum. 🤭❤️"
+},
+{
+title:"🤍 Thank You...",
+text:"Unna care pannradhu enakku romba natural... adha nee appreciate pannadhu romba special. ❤️"
+},
+{
+title:"🌍 Awww...",
+text:"'Home' nu sonnadhu dhaan indha website-la kedaicha biggest compliment. 🥹🤍"
+}
 ]
 },
 
 {
-title:"Which smile melts my heart?",
-subtitle:"🥹",
+title:"Naa unna ippo enna pannanu nu aasai? 🤭❤️",
+subtitle:"Choose one... 😌",
 answers:[
-"😊 Morning Smile",
-"🥰 Shy Smile",
-"😂 Laughing Smile",
-"❤️ Every Single One"
-],
-responses:[
-{title:"🌞",text:"Morning suits you beautifully."},
-{title:"🥰",text:"That smile is dangerous... in the cutest way."},
-{title:"😂",text:"Your laugh is contagious."},
-{title:"❤️",text:"Hehe... that's what I secretly hoped you'd choose."}
-]
-},
-
-{
-title:"If I had one birthday wish...",
-subtitle:"🎂",
-answers:[
-"🎂 More Cake",
-"❤️ Your Happiness",
-"🏍️ New Bike",
-"💰 More Money"
-],
-responses:[
-{title:"😂",text:"Cake is always welcome."},
-{title:"❤️",text:"This is the only wish that truly matters."},
-{title:"🏍️",text:"Maybe someday... 😄"},
-{title:"💸",text:"Money comes and goes. Smiles stay."}
-]
-},
-
-{
-title:"Complete this...",
-subtitle:"You + Me = ?",
-answers:[
-"😂 Trouble",
-"❤️ Beautiful Memories",
-"🌍 Endless Adventures",
-"✨ Everything"
-],
-responses:[
-{title:"😂",text:"The fun kind of trouble."},
-{title:"❤️",text:"Exactly... memories we'll never forget."},
-{title:"🌍",text:"Adventure sounds perfect."},
-{title:"✨",text:"Couldn't have answered better."}
-]
-},
-
-{
-title:"One thing I never want you to lose...",
-subtitle:"❤️",
-answers:[
-"📱 Phone",
-"😊 Your Smile",
-"🎂 Cake",
-"💰 Money"
-],
-responses:[
-{title:"📱",text:"Phones can be replaced."},
-{title:"❤️",text:"Your smile is priceless."},
-{title:"🍰",text:"Cake disappears quickly 😂"},
-{title:"💰",text:"Money returns. Smiles matter more."}
-]
-},
-
-{
-title:"Today's mission...",
-subtitle:"✨",
-answers:[
+"🤗 Hug",
+"😘 Kiss",
 "😊 Smile",
-"😂 Laugh",
-"❤️ Stay Happy",
-"🌸 All Three"
+"❤️ Hold Hands"
 ],
 responses:[
-{title:"😊",text:"Please keep smiling today."},
-{title:"😂",text:"I hope you laugh a lot today."},
-{title:"❤️",text:"That's my biggest wish."},
-{title:"🌸",text:"Perfect mission accepted!"}
+{
+title:"🤗 Come Here...",
+text:"Idhu dhaan naanum aasai patten... oru big birthday hug! 🥹❤️"
+},
+{
+title:"😘 Ahem...",
+text:"Birthday special-na idhellam allowed dhaane? 🤭💋"
+},
+{
+title:"😊 My Favourite...",
+text:"Un smile dhaan enakku biggest birthday gift. ❤️"
+},
+{
+title:"❤️ Forever...",
+text:"Kaiya pidichitu konjam neram nadakkanum... adhuve romba podhum. 🥹💕"
+}
+]
+},
+{
+title:"Naa konjam possessive-ah irundha...? ❤️",
+subtitle:"Honest answer only... 🤭",
+answers:[
+"🤭 Cute",
+"😂 Konjam Over",
+"🥹 Adhuvum Pidikkum",
+"❤️ Nee epdi irundhalum pidikkum"
+],
+responses:[
+{
+title:"🤭 Hehe...",
+text:"Konjam possessive-na... love konjam adhigam nu artham dhaane? ❤️"
+},
+{
+title:"😂 Seri...",
+text:"Konjam improve pannikiren... aana konjam possessive irukka permission irukulla? 🤭"
+},
+{
+title:"🥹 Awww...",
+text:"Indha answer ketta odane en heart full happy aayiduchu. ❤️"
+},
+{
+title:"❤️ Happiest Me...",
+text:"Nee epdi irundhalum pidikkum-nu ketta... adhuku mela vera enna venum. 🥹💕"
+}
 ]
 },
 
 {
-title:"One last thing...",
-subtitle:"❤️",
+title:"Namma rendu perum oru movie-na...? 🎬",
+subtitle:"Which genre suits us? 🤭",
 answers:[
-"💌 Show Me",
-"🥹 I'm Ready",
-"❤️ I've Been Waiting",
-"✨ Continue"
+"😂 Comedy",
+"💖 Love Story",
+"🎭 Drama",
+"🌍 Adventure"
 ],
 responses:[
-{title:"💌",text:"Then let me tell you something from my heart..."}
-,
-{title:"🥹",text:"Thank you for staying till the end."},
-{title:"❤️",text:"I've been waiting too."},
-{title:"✨",text:"Let's continue our little journey."}
+{
+title:"😂 Haha...",
+text:"Nee irundha comedy automatically nadakkum. 🤣❤️"
+},
+{
+title:"💖 Perfect!",
+text:"Love Story dhaan... climax mattum lifetime happy ending. 🥹❤️"
+},
+{
+title:"🎭 Hmm...",
+text:"Konjam sanda... adhuku apram neraya konjal. 🤭💕"
+},
+{
+title:"🌍 Let's Go!",
+text:"Hero, Heroine ready... adventure start pannalama? ❤️"
+}
+]
+},
+
+{
+title:"Enna pathi oru complaint sollanum-na enna solluva? 🤭",
+subtitle:"Promise... kovapada maaten. 😂",
+answers:[
+"😂 Romba tease pannuva",
+"📱 Late reply pannuva",
+"🤭 Romba miss panna veppa",
+"❤️ Endha complaint-um illa"
+],
+responses:[
+{
+title:"😂 Guilty...",
+text:"Hehe... konjam tease pannalana namma chats bore adichidum la? 🤭❤️"
+},
+{
+title:"📱 Sorry...",
+text:"Seri... inime seekiram reply panna try pannuren. Promise! 🥹"
+},
+{
+title:"🤭 Awww...",
+text:"Idha complaint-nu eduthukalama... illa compliment-nu eduthukalama? ❤️🥹"
+},
+{
+title:"❤️ Happiest...",
+text:"Indha answer-ku naan speechless... romba happy aayiten. 🥹❤️"
+}
+]
+},
+
+{
+title:"Oru secret sollava...? 🤫❤️",
+subtitle:"Last question... Ready? 🥹",
+answers:[
+"🥹 Sollu",
+"🤭 Ready",
+"❤️ Waiting",
+"✨ Yes"
+],
+responses:[
+{
+title:"❤️ Secret...",
+text:"Indha website-la irukka ovvoru screen-um... ovvoru animation-um... ovvoru line of code-um... un smile-kaaga dhaan create pannadhu. ❤️🥹"
+},
+{
+title:"🤭 Secret...",
+text:"Indha website-la irukka ovvoru screen-um... ovvoru animation-um... ovvoru line of code-um... un smile-kaaga dhaan create pannadhu. ❤️🥹"
+},
+{
+title:"❤️ Secret...",
+text:"Indha website-la irukka ovvoru screen-um... ovvoru animation-um... ovvoru line of code-um... un smile-kaaga dhaan create pannadhu. ❤️🥹"
+},
+{
+title:"✨ Secret...",
+text:"Indha website-la irukka ovvoru screen-um... ovvoru animation-um... ovvoru line of code-um... un smile-kaaga dhaan create pannadhu. ❤️🥹"
+}
 ]
 }
-
+   
 ];
 
 function updateHearts(){
