@@ -675,52 +675,120 @@ document.getElementById("reasonText");
 
 const loveLetter = `
 
-My Dearest Sweeetuuhh ❤️,
+My Dearest Sweeetuuhh... ❤️🥹
 
-Happy Birthday, my favorite person.
+Innaiku un birthday...
 
-I don't know if words will ever be enough,
-but today I wanted to create something
-that would stay with you for a long time.
+Indha naal unakku romba special.
+Aana...
+Indha naal enakkum konjam special dhaan.
 
-So...
-instead of buying another gift,
-I decided to build you a little journey.
-Every screen you saw...
-every animation...
-every tiny detail...
-was made while thinking about you.
-I wanted this surprise to make you smile,
-even if only for a few minutes.
-Because seeing you happy
-has always been one of my favorite things.
-I hope today reminds you
-how loved,
-how appreciated,
-and how special you truly are.
-Never stop smiling.
-Never stop being the amazing person you are.
-And whenever life feels difficult,
-remember...
-there's someone who will always want
-to see that beautiful smile again.
+Yenna-na...
+
+Indha surprise create pannra ovvoru nimishamum...
+Unna dhaan nenachittu irundhen. ❤️
+
+Nee paatha ovvoru screen...
+Ovvoru animation...
+Ovvoru line of code...
+
+Ellameyy...
+Unakkaga dhaan.
+
+Indha website oru gift illa...
+
+Idhu...
+En manasula irundha konjam feelings. 🥹
+
+Sometimes...
+Words pothadhu.
+
+Aana...
+Feelings sollama irukkavum mudiyadhu.
+
+Adhanala dhaan...
+Indha little journey.
+
+Nee happy-ah irundha...
+Adhuve enakku biggest happiness.
+
+Nee sirichaa...
+Adha paathu naanum sirippen.
+
+Nee excited-aa irundha...
+Adha paathu naanum santhoshapaduven.
+
+Adhu dhaan nee...
+Adhu dhaan un magic. ❤️
+
+Un kooda pesina...
+Time epdi pogudhu-nu theriyadhu.
+
+Un kooda irukkumbodhu...
+Silence kooda comfortable-ah feel aagum.
+
+Un kooda create panna
+chinna chinna memories...
+Adhellam enakku romba precious.
+
+Un message...
+Oru notification mattum illa.
+
+Adhu...
+Automatic-ah day-ah better aakra feeling.
+
+Un voice...
+Konjam neram kettalum...
+Mind full calm aagidum.
+Un presence...
+Enakku oru peaceful feeling.
+Adha explain panna romba kashtam.
+
+Aana...
+Nee irundha pothum...
+Everything feels better. ❤️
+
+Life-la...
+Happy days irukum.
+Konjam difficult days-um varum.
+Aana...
+Endha situation vandhaalum...
+Nee ippadiye happy-ah irukanum.
+Nee ippadiye kind-ah irukanum.
+Nee ippadiye beautiful soul-ah irukanum.
+Adhu dhaan en birthday wish. 🥹
 
 Thank you...
-for being part of so many beautiful memories.
-Thank you...
-for simply being YOU.
+En life-la vandhadhuku.
+Neraya unforgettable memories kuduthadhuku.
+Enna purinjukittadhuku.
+Konjam konjam tolerate pannadhuku. 🤭❤️
+Indha website mudinja apram...
+Oru vishayam mattum nyabagam vechiko.
+Nee romba special.
+Nee romba important.
+Nee maari
+vera yaarume illa.
 
-Happy Birthday once again,
-my Sweeetuuhh.
+Once Again...
+Happy Birthday...
 
-May this year bring you
-more laughter,
-more peace,
-more adventures,
-and countless beautiful moments.
+En Chellam...
+En Thangoo...
+En Pattu...
+En Sweeeetuhhh... ❤️🥹
+May every new day
+bring you more happiness...
 
-With all my heart,
-Akash ❤️
+More peace...
+More beautiful memories...
+And endless reasons to laugh. ❤️
+
+With all my heart...
+and a little more. ❤️
+
+Always,
+Akash 🫶
 
 `;
 
