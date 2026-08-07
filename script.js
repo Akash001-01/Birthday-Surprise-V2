@@ -225,8 +225,6 @@ let currentQuestion = 0;
 
 const questions = [
 
-const questions = [
-
 {
 title:"Enna paatha unakku first enna thonum? 🤭",
 subtitle:"Choose honestly... ❤️",
