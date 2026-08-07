@@ -1550,3 +1550,37 @@ transform:translateY(0);
     }
 
 }
+/* ============================
+   QUESTION INTRO
+============================ */
+
+#questionIntro{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    min-height:500px;
+    padding:40px;
+    animation:fadeIn 0.8s ease;
+}
+
+#questionIntro h2{
+    color:#ff4f8b;
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:20px;
+    font-family:'Dancing Script',cursive;
+}
+
+#questionIntro p{
+    color:#666;
+    font-size:22px;
+    line-height:1.7;
+    margin-bottom:35px;
+}
+
+#startQuestionsBtn{
+    padding:18px 50px;
+    font-size:22px;
+}
