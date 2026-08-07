@@ -553,12 +553,27 @@ heartProgress.innerHTML=hearts;
 
 }
 
+const questionIntro = document.getElementById("questionIntro");
+const startQuestionsBtn = document.getElementById("startQuestionsBtn");
+
 function startQuestions(){
 
-showQuestion();
+    currentQuestion = 0;
+
+    questionIntro.classList.remove("hidden");
+    questionContent.classList.add("hidden");
 
 }
 
+startQuestionsBtn.addEventListener("click",()=>{
+
+    questionIntro.classList.add("hidden");
+
+    questionContent.classList.remove("hidden");
+
+    showQuestion();
+
+});
 function showQuestion(){
 
 const q=questions[currentQuestion];
