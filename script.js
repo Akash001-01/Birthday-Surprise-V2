@@ -226,6 +226,20 @@ let currentQuestion = 0;
 const questions = [
 
 {
+title:"Let's play a little game... 🤭❤️",
+subtitle:"Just 10 little questions...<br><br>Answer them with your heart. ❤️🥹",
+answers:[
+"Let's Go 💖"
+],
+responses:[
+{
+title:"🥹 Ready?",
+text:"Here comes the first question... ❤️"
+}
+]
+},
+   
+{
 title:"Enna paatha unakku first enna thonum? 🤭",
 subtitle:"Choose honestly... ❤️",
 answers:[
