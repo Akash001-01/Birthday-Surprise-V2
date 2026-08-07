@@ -1137,9 +1137,9 @@ function startMusic(){
 
         volume += 0.02;
 
-        if(volume >= 0.35){
+        if(volume >= 0.20){
 
-            volume = 0.35;
+            volume = 0.20;
 
             clearInterval(fade);
 
@@ -1157,7 +1157,7 @@ function stopMusic(){
 
         if(bgMusic.volume > 0.02){
 
-            bgMusic.volume -= 0.02;
+            bgMusic.volume -= 0.01;
 
         }else{
 
