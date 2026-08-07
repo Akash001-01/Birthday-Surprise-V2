@@ -855,53 +855,53 @@ petal.remove();
 const reasons = [
 
 {
-    emoji:"❤️",
-    text:"Your smile makes ordinary days feel extraordinary."
+emoji:"😊",
+text:"Un smile-ku naan weak. 🥹❤️"
 },
 
 {
-    emoji:"🌸",
-    text:"You make people feel comfortable just by being yourself."
+emoji:"🤭",
+text:"Unna tease pannradhu en favourite hobby. 😂"
 },
 
 {
-    emoji:"✨",
-    text:"Your happiness genuinely matters to me."
+emoji:"💌",
+text:"Un message vandha odane... day complete. ❤️"
 },
 
 {
-    emoji:"🥹",
-    text:"Every conversation with you becomes a beautiful memory."
+emoji:"🌸",
+text:"Nee irukkura idam konjam azhaga maaridum. ✨"
 },
 
 {
-    emoji:"💖",
-    text:"Your kindness is something I'll always admire."
+emoji:"🥰",
+text:"Un kooda pesina time epdi pogudhu-nu theriyadhu. 🤍"
 },
 
 {
-    emoji:"😊",
-    text:"You make even simple moments feel special."
+emoji:"🌍",
+text:"Ordinary moments-ah beautiful memories-a maathura magic unakku irukku. 🥹"
 },
 
 {
-    emoji:"🌙",
-    text:"Your calmness brings peace to my heart."
+emoji:"😂",
+text:"Un laugh ketta... naanum sirikkama irukka mudiyadhu. ❤️"
 },
 
 {
-    emoji:"💌",
-    text:"You inspire me to become a better person."
+emoji:"🫶",
+text:"Un happiness paakradhula oru thani santhosham irukku. 💖"
 },
 
 {
-    emoji:"🥰",
-    text:"Thank you for simply being YOU."
+emoji:"🌙",
+text:"Nee irundha... silence kooda romba peaceful-ah irukum. 🥹"
 },
 
 {
-    emoji:"❤️",
-    text:"And the biggest reason...\n\nBecause you're YOU.\n\nThat's more than enough."
+emoji:"❤️",
+text:"Ellathukkum mela... nee nee-ah irukkuradhe pothum. That's why you'll always be my favourite person. 🥹❤️"
 }
 
 ];
@@ -946,7 +946,7 @@ function playReasons(){
 
     currentReason++;
 
-    setTimeout(playReasons,3000);
+    setTimeout(playReasons,3500);
 
 }
 
