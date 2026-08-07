@@ -227,7 +227,7 @@ const questions = [
 
 {
 title:"Let's play a little game... 🤭❤️",
-subtitle:"Just 10 little questions...<br><br>Answer them with your heart. ❤️🥹",
+subtitle:"Just 10 little questions...<br><br>Answer them with your heart. ❤️",
 answers:[
 "Let's Go 💖"
 ],
@@ -263,13 +263,13 @@ text:"Unna care pannradhu enakku romba pidikkum. Adha nee notice pannadhe romba 
 },
 {
 title:"❤️ My Favourite...",
-text:"Idha dhaan naan expect pannen... ellameyy-na naan official-aa happy. 🥹🤍"
+text:"Idha dhaan naan expect pannen... ellameyy-na naan official-aa happy. 🤍"
 }
 ]
 },
 
 {
-title:"Ennoda Chellam, Thangoo, Pattu elameyy yaru? 🥹❤️",
+title:"Ennoda Chellam, Thangoo, Pattu elameyy yaru? ❤️",
 subtitle:"Idhuku correct answer theriyume... 🤭",
 answers:[
 "🌸 Sai Dhatchayani",
@@ -298,7 +298,7 @@ text:"Correct-u! Nee en Chellam... Thangoo... Pattu... Sweeeetuhhh... ellameyy n
 },
 
 {
-title:"Namma next date-ku enga pogalam? 🥹❤️",
+title:"Namma next date-ku enga pogalam? ❤️",
 subtitle:"Let's make another beautiful memory... ✨",
 answers:[
 "🌊 Beach",
@@ -355,7 +355,7 @@ text:"Indha answer dhaan enakku romba pidichadhu... waiting-ku reward oru big hu
 },
 
 {
-title:"Enna oru word-la describe panna...? 🥹",
+title:"Enna oru word-la describe panna...? ",
 subtitle:"Just one word... ❤️",
 answers:[
 "❤️ Sweet",
@@ -366,7 +366,7 @@ answers:[
 responses:[
 {
 title:"❤️ Sweet-aa?",
-text:"Nee sonna indha oru word pothum... whole day smile pannitu iruppen. 🥹"
+text:"Nee sonna indha oru word pothum... whole day smile pannitu iruppen. "
 },
 {
 title:"😂 Hehe...",
@@ -378,7 +378,7 @@ text:"Unna care pannradhu enakku romba natural... adha nee appreciate pannadhu r
 },
 {
 title:"🌍 Awww...",
-text:"'Home' nu sonnadhu dhaan indha website-la kedaicha biggest compliment. 🥹🤍"
+text:"'Home' nu sonnadhu dhaan indha website-la kedaicha biggest compliment. 🤍"
 }
 ]
 },
@@ -435,7 +435,7 @@ text:"Indha answer ketta odane en heart full happy aayiduchu. ❤️"
 },
 {
 title:"❤️ Happiest Me...",
-text:"Nee epdi irundhalum pidikkum-nu ketta... adhuku mela vera enna venum. 🥹💕"
+text:"Nee epdi irundhalum pidikkum-nu ketta... adhuku mela vera enna venum. 💕"
 }
 ]
 },
@@ -456,7 +456,7 @@ text:"Nee irundha comedy automatically nadakkum. 🤣❤️"
 },
 {
 title:"💖 Perfect!",
-text:"Love Story dhaan... climax mattum lifetime happy ending. 🥹❤️"
+text:"Love Story dhaan... climax mattum lifetime happy ending. ❤️"
 },
 {
 title:"🎭 Hmm...",
@@ -489,7 +489,7 @@ text:"Seri... inime seekiram reply panna try pannuren. Promise! 🥹"
 },
 {
 title:"🤭 Awww...",
-text:"Idha complaint-nu eduthukalama... illa compliment-nu eduthukalama? ❤️🥹"
+text:"Idha complaint-nu eduthukalama... illa compliment-nu eduthukalama? ❤️"
 },
 {
 title:"❤️ Happiest...",
@@ -500,7 +500,7 @@ text:"Indha answer-ku naan speechless... romba happy aayiten. 🥹❤️"
 
 {
 title:"Oru secret sollava...? 🤫❤️",
-subtitle:"Last question... Ready? 🥹",
+subtitle:"Last question... Ready? ",
 answers:[
 "🥹 Sollu",
 "🤭 Ready",
@@ -703,7 +703,7 @@ document.getElementById("reasonText");
 
 const loveLetter = `
 
-My Dearest Sweeetuuhh... ❤️🥹
+My Dearest Sweeetuuhh... ❤️
 
 Innaiku un birthday...
 
@@ -784,7 +784,7 @@ Endha situation vandhaalum...
 Nee ippadiye happy-ah irukanum.
 Nee ippadiye kind-ah irukanum.
 Nee ippadiye beautiful soul-ah irukanum.
-Adhu dhaan en birthday wish. 🥹
+Adhu dhaan en birthday wish. 
 
 Thank you...
 En life-la vandhadhuku.
@@ -804,7 +804,7 @@ Happy Birthday...
 En Chellam...
 En Thangoo...
 En Pattu...
-En Sweeeetuhhh... ❤️🥹
+En Sweeeetuhhh... ❤️
 May every new day
 bring you more happiness...
 
@@ -924,12 +924,12 @@ text:"Un happiness paakradhula oru thani santhosham irukku. 💖"
 
 {
 emoji:"🌙",
-text:"Nee irundha... silence kooda romba peaceful-ah irukum. 🥹"
+text:"Nee irundha... silence kooda romba peaceful-ah irukum. "
 },
 
 {
 emoji:"❤️",
-text:"Ellathukkum mela... nee nee-ah irukkuradhe pothum. That's why you'll always be my favourite person. 🥹❤️"
+text:"Ellathukkum mela... nee nee-ah irukkuradhe pothum. That's why you'll always be my favourite person. ❤️"
 }
 
 ];
