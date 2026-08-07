@@ -641,7 +641,7 @@ function showResponse(answerIndex){
 
         }
 
-    },2200);
+    },4500);
 
 }
 
