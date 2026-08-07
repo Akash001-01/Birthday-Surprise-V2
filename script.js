@@ -554,6 +554,7 @@ heartProgress.innerHTML=hearts;
 }
 
 const questionIntro = document.getElementById("questionIntro");
+const questionContent = document.getElementById("questionContent");
 const startQuestionsBtn = document.getElementById("startQuestionsBtn");
 
 function startQuestions(){
@@ -574,6 +575,7 @@ startQuestionsBtn.addEventListener("click",()=>{
     showQuestion();
 
 });
+
 function showQuestion(){
 
 const q=questions[currentQuestion];
